@@ -20,7 +20,6 @@ crewai install
 ```
 ### Customizing
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
 
 - Modify `src/ashish_custom_trip_planner/config/agents.yaml` to define your agents
 - Modify `src/ashish_custom_trip_planner/config/tasks.yaml` to define your tasks
