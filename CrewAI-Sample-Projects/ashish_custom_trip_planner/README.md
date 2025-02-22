@@ -21,6 +21,8 @@ In case you want to use only one LLM, then you can use either of it. I have used
 
 ## Installation
 
+You can use installation instruction on the [CrewAI Installation](https://docs.crewai.com/installation) webpage. 
+
 I have used conda based environment to run crewAI. The detail instructions are given on my blog for your reference. 
 
 ### Customizing
