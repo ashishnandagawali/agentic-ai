@@ -58,7 +58,7 @@ This command initializes the ashish-custom-trip-planner Crew, assembling the age
 This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
 
 ## Output
-A successful sample output from one sucessful run is shown in "Output-Run-1.txt" file in root folder.
+A successful output from one of sucessful runs is shown in "Output-Run-1.txt" file in root folder. 
 
 ## Support
 
