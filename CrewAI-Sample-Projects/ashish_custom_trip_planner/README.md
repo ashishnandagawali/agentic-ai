@@ -1,15 +1,15 @@
 # AshishCustomTripPlanner Crew
 
 Welcome to the AshishCustomTripPlanner Crew project, powered by [crewAI](https://crewai.com). 
-I have taken the [Surpise Trip](https://github.com/crewAIInc/crewAI-examples/tree/main/surprise_trip) project from [CrewAI Examples](https://github.com/crewAIInc/crewAI-examples.git). 
-I have modified this project to use deepseek LLM using - 1) from Deepseek API from Deepseek 2) Deepseek NIM API from nvidia. Rest of exammple is same as the origial suprise trip. 
+<br>I have taken the [Surpise Trip](https://github.com/crewAIInc/crewAI-examples/tree/main/surprise_trip) project from [CrewAI Examples](https://github.com/crewAIInc/crewAI-examples.git). 
+<br>I have modified this project to use deepseek LLM using - 1) from Deepseek API from Deepseek 2) Deepseek NIM API from nvidia. Rest of exammple is same as the origial suprise trip. 
 Also I have used the Serper API for google search. 
-So to run this project you will need 
+<br>To run this project you will need -
 1) Serper API
 2) Deepseek API
 3) NIM Deepseek API.
 
-In case you want to use only one LLM,,, then please use either of it. I have used OpenRouter LLM as an optional. You may skkip it. 
+In case you want to use only one LLM, then please use either of it. I have used OpenRouter LLM as an optional. You may skkip it. 
 
 ## Installation
 
