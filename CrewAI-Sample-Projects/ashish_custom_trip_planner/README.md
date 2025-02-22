@@ -1,26 +1,29 @@
 # AshishCustomTripPlanner Crew
 
-Welcome to the AshishCustomTripPlanner Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Welcome to the AshishCustomTripPlanner Crew project, powered by [crewAI](https://crewai.com). 
+I have taken the [Surpise Trip](https://github.com/crewAIInc/crewAI-examples/tree/main/surprise_trip) project from [CrewAI Examples](https://github.com/crewAIInc/crewAI-examples.git). 
+I have modified this project to use deepseek LLM using - 1) from Deepseek API from Deepseek 2) Deepseek NIM API from nvidia. Rest of exammple is same as the origial suprise trip. 
+Also I have used the Serper API for google search. 
+So to run this project you will need 
+1) Serper API
+2) Deepseek API
+3) NIM Deepseek API.
+
+In case you want to use only one LLM,,, then please use either of it. I have used OpenRouter LLM as an optional. You may skkip it. 
 
 ## Installation
 
-Ensure you have Python >=3.10 <3.13 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
+I have used conda based environemtn to run crewAI. The detail instructions are given on blog for your reference. 
 
-First, if you haven't already, install uv:
 
-```bash
-pip install uv
-```
-
-Next, navigate to your project directory and install the dependencies:
-
-(Optional) Lock the dependencies and install them by using the CLI command:
-```bash
-crewai install
-```
 ### Customizing
 
-
+- **Configure Environment**: Edit `.env.example` and set up the environment variables for
+- SERPER_API_KEY=
+- DEEPSEEK_API_KEY=
+- NIM_DEEPSEEK_API_KEY=
+- OPENROUTER_DEEPSEEK_API_KEY=
+-
 - Modify `src/ashish_custom_trip_planner/config/agents.yaml` to define your agents
 - Modify `src/ashish_custom_trip_planner/config/tasks.yaml` to define your tasks
 - Modify `src/ashish_custom_trip_planner/crew.py` to add your own logic, tools and specific args
@@ -45,9 +48,10 @@ The ashish-custom-trip-planner Crew is composed of multiple AI agents, each with
 ## Support
 
 For support, questions, or feedback regarding the AshishCustomTripPlanner Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
+- Visit  [documentation](https://docs.crewai.com)
+- Reach out to us through  [GitHub repository](https://github.com/joaomdmoura/crewai)
+- [Join CrewAI  Discord](https://discord.com/invite/X4JWnZnxPb)
+- [Chat with CrewAI docs](https://chatg.pt/DWjSBZn)
 
-Let's create wonders together with the power and simplicity of crewAI.
+## License
+This project is released under the MIT License.
