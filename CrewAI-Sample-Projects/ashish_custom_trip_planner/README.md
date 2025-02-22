@@ -2,7 +2,10 @@
 
 Welcome to the AshishCustomTripPlanner Crew project, powered by [crewAI](https://crewai.com). 
 <br>I have taken the [Surpise Trip](https://github.com/crewAIInc/crewAI-examples/tree/main/surprise_trip) project from [CrewAI Examples](https://github.com/crewAIInc/crewAI-examples.git). 
-<br>I have modified this project to use deepseek LLM using - 1) from Deepseek API from Deepseek 2) Deepseek NIM API from nvidia. Rest of exammple is same as the origial suprise trip. 
+<br>I have modified this project to use deepseek LLM using - <br>
+   1) from Deepseek API from Deepseek
+   2) Deepseek NIM API from nvidia.
+Rest of exammple is same as the origial suprise trip. 
 Also I have used the Serper API for google search. 
 <br>To run this project you will need -
 1) Serper API
