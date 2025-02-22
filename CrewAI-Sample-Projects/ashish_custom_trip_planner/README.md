@@ -2,37 +2,42 @@
 
 Welcome to the AshishCustomTripPlanner Crew project, powered by [crewAI](https://crewai.com). 
 <br>I have taken the [Surpise Trip](https://github.com/crewAIInc/crewAI-examples/tree/main/surprise_trip) project from [CrewAI Examples](https://github.com/crewAIInc/crewAI-examples.git). 
-<br>I have modified this project to use deepseek LLM using - <br>
+
+I have modified this project to use Deepseek LLM using - <br>
    1) from Deepseek API from Deepseek
    2) Deepseek NIM API from nvidia.
 Rest of exammple is same as the origial suprise trip. 
-Also I have used the Serper API for google search. <br>
+Also I have used the Serper API for google search.
+
 To run this project you will need -
    1) Serper API
    2) Deepseek API
    3) NIM Deepseek API.
    4) Optionally OpenRouter Deepseek API if you like to use.
       
-In case you want to use only one LLM, then please use either of it. I have used OpenRouter LLM as an optional. You may skkip it. 
+In case you want to use only one LLM, then please use either of it. I have used OpenRouter LLM as an optional. You may skip it. 
 
 ## Installation
 
-I have used conda based environemtn to run crewAI. The detail instructions are given on blog for your reference. 
+I have used conda based environment to run crewAI. The detail instructions are given on my blog for your reference. 
 
 
 ### Customizing
 
-- **Configure Environment**: Edit `.env.example` and set up the environment variables for
-- SERPER_API_KEY=
-- DEEPSEEK_API_KEY=
-- NIM_DEEPSEEK_API_KEY=
-- OPENROUTER_DEEPSEEK_API_KEY=
--
+**Configure Environment**: Edit `.env.example` and set up the environment variables for
+      - SERPER_API_KEY=
+      - DEEPSEEK_API_KEY=
+      - NIM_DEEPSEEK_API_KEY=
+      - OPENROUTER_DEEPSEEK_API_KEY=
+
+**Configure Agents and Taks**:
 - Modify `src/ashish_custom_trip_planner/config/agents.yaml` to define your agents
 - Modify `src/ashish_custom_trip_planner/config/tasks.yaml` to define your tasks
 - Modify `src/ashish_custom_trip_planner/crew.py` to add your own logic, tools and specific args
 - Modify `src/ashish_custom_trip_planner/main.py` to add custom inputs for your agents and tasks
+- Check `src/ashish_custom_trip_planner/config/agents.yaml` to update your agents and `src/ashish_custom_trip_planner/config/tasks.yaml` to update your tasks.
 
+  
 ## Running the Project
 
 To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
@@ -50,7 +55,7 @@ This example, unmodified, will run the create a `report.md` file with the output
 The ashish-custom-trip-planner Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
 
 ## Output
-A suceesfull sample output is shown in Output-Run-1.txt in root folder.
+A successful sample output is shown in Output-Run-1.txt in root folder.
 
 ## Support
 
