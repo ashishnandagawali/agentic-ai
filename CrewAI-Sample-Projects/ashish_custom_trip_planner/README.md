@@ -27,7 +27,8 @@ I have used conda based environment to run crewAI. The detail instructions are g
 
 ### Customizing
 
-**Configure Environment**: Edit `.env.example`  and rename file to `.env` and update up the environment variables as below by providing API key
+**Configure Environment**: Edit `.env.example`  and rename file to `.env` and update below environment variables by providing API keys.
+
 - SERPER_API_KEY=
 - DEEPSEEK_API_KEY=
 - NIM_DEEPSEEK_API_KEY=
@@ -40,7 +41,10 @@ I have used conda based environment to run crewAI. The detail instructions are g
 - Modify `src/ashish_custom_trip_planner/main.py` to add custom inputs for your agents and tasks
 - Check `src/ashish_custom_trip_planner/config/agents.yaml` to update your agents and `src/ashish_custom_trip_planner/config/tasks.yaml` to update your tasks.
 
-  
+## Understanding Your Crew
+
+The ashish-custom-trip-planner Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
+
 ## Running the Project
 
 To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
@@ -53,19 +57,15 @@ This command initializes the ashish-custom-trip-planner Crew, assembling the age
 
 This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
 
-## Understanding Your Crew
-
-The ashish-custom-trip-planner Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
-
 ## Output
-A successful sample output is shown in Output-Run-1.txt in root folder.
+A successful sample output from one sucessful run is shown in "Output-Run-1.txt" file in root folder.
 
 ## Support
 
 For support, questions, or feedback regarding the AshishCustomTripPlanner Crew or crewAI.
-- Visit  [documentation](https://docs.crewai.com)
-- Reach out to us through  [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join CrewAI  Discord](https://discord.com/invite/X4JWnZnxPb)
+- Visit CrewAI  [documentation](https://docs.crewai.com)
+- Reach out to CrewAI through  [GitHub repository](https://github.com/joaomdmoura/crewai)
+- [Join CrewAI Discord](https://discord.com/invite/X4JWnZnxPb)
 - [Chat with CrewAI docs](https://chatg.pt/DWjSBZn)
 
 ## License
