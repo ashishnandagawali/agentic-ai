@@ -25,10 +25,10 @@ I have used conda based environment to run crewAI. The detail instructions are g
 ### Customizing
 
 **Configure Environment**: Edit `.env.example` and set up the environment variables for
-      - SERPER_API_KEY=
-      - DEEPSEEK_API_KEY=
-      - NIM_DEEPSEEK_API_KEY=
-      - OPENROUTER_DEEPSEEK_API_KEY=
+- SERPER_API_KEY=
+- DEEPSEEK_API_KEY=
+- NIM_DEEPSEEK_API_KEY=
+- OPENROUTER_DEEPSEEK_API_KEY=
 
 **Configure Agents and Taks**:
 - Modify `src/ashish_custom_trip_planner/config/agents.yaml` to define your agents
