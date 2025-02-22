@@ -4,9 +4,11 @@ Welcome to the AshishCustomTripPlanner Crew project, powered by [crewAI](https:/
 <br>I have taken the [Surpise Trip](https://github.com/crewAIInc/crewAI-examples/tree/main/surprise_trip) project from [CrewAI Examples](https://github.com/crewAIInc/crewAI-examples.git). 
 
 I have modified this project to use Deepseek LLM using - <br>
-   1) from Deepseek API from Deepseek
+   1) Deepseek API from Deepseek
    2) Deepseek NIM API from nvidia.
+
 Rest of exammple is same as the origial suprise trip. 
+
 Also I have used the Serper API for google search.
 
 To run this project you will need -
@@ -15,16 +17,15 @@ To run this project you will need -
    3) NIM Deepseek API.
    4) Optionally OpenRouter Deepseek API if you like to use.
       
-In case you want to use only one LLM, then please use either of it. I have used OpenRouter LLM as an optional. You may skip it. 
+In case you want to use only one LLM, then you can use either of it. I have used OpenRouter LLM as an optional. You may skip it. 
 
 ## Installation
 
 I have used conda based environment to run crewAI. The detail instructions are given on my blog for your reference. 
 
-
 ### Customizing
 
-**Configure Environment**: Edit `.env.example` and set up the environment variables for
+**Configure Environment**: Edit `.env.example`  and rename file to `.env` and update up the environment variables as below by providing API key
 - SERPER_API_KEY=
 - DEEPSEEK_API_KEY=
 - NIM_DEEPSEEK_API_KEY=
